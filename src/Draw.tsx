@@ -439,6 +439,7 @@ const Draw = forwardRef<DrawRef, DrawProps>(
       undo: handleUndo,
       clear,
       setColor,
+      setThickness,
       getPaths: () => paths,
       addPath: (newPath) => {
         setPaths((prev) => [...prev, newPath]);
