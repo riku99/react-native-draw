@@ -184,6 +184,8 @@ export interface DrawRef {
    * Append a path to the current drawing paths
    */
   addPath: (path: PathType) => void;
+  
+  setThickness: Dispatch<SetStateAction<number>>;
 }
 
 interface Visibility {
